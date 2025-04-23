@@ -30,7 +30,7 @@ jobs:
 
       - name: 下载 BPB worker.js
         run: |
-          wget -O origin.js https://raw.githubusercontent.com/bia-pain-bache/BPB-Worker-Panel/main/build/unobfuscated-worker.js
+          wget -O origin.js https://github.com/bia-pain-bache/BPB-Worker-Panel/blob/41661867373d321036d32c153113d155bbac3647/build/unobfuscated-worker.js
 
       - name: 混淆 BPB worker.js
         run: |
